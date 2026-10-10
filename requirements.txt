@@ -1,0 +1,16 @@
+# Common dependencies
+numpy
+scipy
+Pillow
+scikit-image
+
+# Tested old package pair
+scikit-learn==1.0.2 ; python_version < "3.8"
+xgboost==1.6.2 ; python_version < "3.8"
+
+# Tested new package pair
+scikit-learn==1.8.0 ; python_version >= "3.14"
+xgboost==3.2.0 ; python_version >= "3.14"
+
+# If you use an intermediate Python version such as 3.10,
+# install scikit-learn / xgboost manually according to the environment.
